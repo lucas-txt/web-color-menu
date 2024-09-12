@@ -20,7 +20,7 @@ html, body {
 }
 
 
-footer {
+header {
   background-color: $fundo-padrao;
   @include boxSize(7%, 100%);
   padding: 0em 0.5em;
@@ -111,4 +111,16 @@ footer {
           
       }
   }
+}
+
+section {
+    padding: 2%;
+
+    h1, h2 {
+        color: $cor;
+    }
+
+    p {
+        color: $fundo-padrao-reverso;
+    }
 }
